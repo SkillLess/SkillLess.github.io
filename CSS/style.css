@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*HEAD!!!*/
+/*HEAD!!!*/
+/*HEAD!!!*/
+
+
+
+header{   
+    display: flex;
+    background: #000;
+}
+
+.logo{
+    padding: 0 20px;
+    height: 120px;
+    width: 120px;
+}
+
+.menu__nav{
+    padding: 35px;
+    list-style: none;
+    font-size: 1.5em;
+    position: absolute;
+    left: 27%;
+}
+
+a{
+    display: inline-block;
+    margin: 15px;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #f2f2f2;
+    transition: .3s;
+}
+
+a:hover::after{
+    width: 100%;
+}
+
+
+
+/*MAIN!!!*/
+/*MAIN!!!*/
+/*MAIN!!!*/
+
+
+
+main{
+    margin: 40px 30px;
+    display: flex;
+}
+
+.solus{
+    padding: 10px 40px;
+    background: #f3f3f3;
+    width: 55%;
+}
+
+.headline{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+span{
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+span::after{
+    content: 'ー';
+}
+
+span::before{
+    content: 'ー';
+    font-size: 900;
+}
+
+
+.line::after{
+    content: '';
+    display: block;
+    background: #000;
+    width: 204px;
+    height: 2px;
+}
+
+.solus_picture{
+    padding: 10px 10px;
+    margin: 0 20px;
+}
+
+.solus_picture img{
+    position: absolute;
+    top: 18%;
+    width: 34%;
+    height: 30%;
+}
